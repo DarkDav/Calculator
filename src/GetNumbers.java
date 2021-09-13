@@ -16,7 +16,10 @@ class Main {
             b = s[1];
             c = s[2];
             String[] romans = new String[]{"X", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
-
+            int x = s.length;
+            if (x > 3) {
+                throw new Exception();
+            }
 
             if (Arrays.asList(romans).contains(s[0])) {
 
@@ -59,7 +62,7 @@ class Main {
                     //System.out.println(RomanNumeral.toStr(da));
                     String H;
                     System.out.println(H = ToRoman.toRomawi(da));
-                    if (da <=0) {
+                    if (da <= 0) {
                         throw new Exception();
                     }
                 }
@@ -69,6 +72,7 @@ class Main {
                 if (q > 10 || q == 0 || w > 10 || w == 0) {
                     throw new Exception();
                 }
+
                 if (b.equals("+")) {
                     int d;
                     System.out.println(d = q + w);

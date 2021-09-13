@@ -33,7 +33,7 @@ public class ToRoman {
 
 
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         // TODO Auto-generated method stub
         int     angka;
         String  romawi;
@@ -45,6 +45,6 @@ public class ToRoman {
 
         romawi  = toRomawi(angka);
         System.out.print("Hasilnya: "+romawi);
-    }
+    }*/
 
 }
