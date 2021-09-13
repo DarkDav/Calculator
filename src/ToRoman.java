@@ -13,10 +13,10 @@ public class ToRoman {
             int puluhan;
             int satuan;
 
-            String ribu[]   = {"","M","MM","MMM"};
-            String ratus[]  = {"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"};
-            String puluh[]  = {"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC"};
-            String satu[]   = {"","I","II","III","IV","V","VI","VII","VIII","IX"};
+            String[] ribu = {"","M","MM","MMM"};
+            String[] ratus = {"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"};
+            String[] puluh = {"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC"};
+            String[] satu = {"","I","II","III","IV","V","VI","VII","VIII","IX"};
 
             ribuan  = decimalNum / 1000;
             ratusan = (decimalNum / 100 ) % 10;
