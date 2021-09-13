@@ -5,7 +5,7 @@ public enum RomanNumeral {
     private int value;
 
     private String key;
-    public int numbers;
+
 
     RomanNumeral(String key, int value) {
         this.value = value;

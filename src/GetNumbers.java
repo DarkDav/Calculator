@@ -27,8 +27,7 @@ class Main {
                     RomanNumeral rom = RomanNumeral.valueOf(a);
                     RomanNumeral rows = RomanNumeral.valueOf(c);
                     int da = rom.getValue() + rows.getValue();
-                    String H;
-                    System.out.println(H = ToRoman.toRomawi(da));
+                    System.out.println(ToRoman.toRomawi(da));
                     if (da >= 101) {
                         throw new Exception();
                     }
@@ -37,8 +36,7 @@ class Main {
                     RomanNumeral rom = RomanNumeral.valueOf(a);
                     RomanNumeral rows = RomanNumeral.valueOf(c);
                     int da = rom.getValue() - rows.getValue();
-                    String H;
-                    System.out.println(H = ToRoman.toRomawi(da));
+                    System.out.println(ToRoman.toRomawi(da));
                     if (da <= 0) {
                         throw new Exception();
                     }
@@ -48,8 +46,7 @@ class Main {
                     RomanNumeral rom = RomanNumeral.valueOf(a);
                     RomanNumeral rows = RomanNumeral.valueOf(c);
                     int da = rom.getValue() * rows.getValue();
-                    String H;
-                    System.out.println(H = ToRoman.toRomawi(da));
+                    System.out.println(ToRoman.toRomawi(da));
                     if (da >= 101) {
                         throw new Exception();
                     }
@@ -60,8 +57,7 @@ class Main {
                     RomanNumeral rows = RomanNumeral.valueOf(c);
                     int da = rom.getValue() / rows.getValue();
                     //System.out.println(RomanNumeral.toStr(da));
-                    String H;
-                    System.out.println(H = ToRoman.toRomawi(da));
+                    System.out.println(ToRoman.toRomawi(da));
                     if (da <= 0) {
                         throw new Exception();
                     }
@@ -74,20 +70,20 @@ class Main {
                 }
 
                 if (b.equals("+")) {
-                    int d;
-                    System.out.println(d = q + w);
+
+                    System.out.println( q + w);
                 }
                 if (b.equals("-")) {
-                    int d;
-                    System.out.println(d = q - w);
+
+                    System.out.println(q - w);
                 }
                 if (b.equals("*")) {
-                    int d;
-                    System.out.println(d = q * w);
+
+                    System.out.println(q * w);
                 }
                 if (b.equals("/")) {
-                    int d;
-                    System.out.println(d = q / w);
+
+                    System.out.println(q / w);
                 }
             }
         } catch (Exception t) {
